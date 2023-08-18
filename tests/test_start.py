@@ -1,4 +1,4 @@
-"""Tests for start.py"""
+"""Start tests."""
 
 from __future__ import annotations
 

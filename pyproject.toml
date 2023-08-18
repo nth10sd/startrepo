@@ -26,6 +26,7 @@ dependencies = [
     "setuptools >= 68.0.0",
     "setuptools-scm[toml] >= 7.1.0",
     "types-setuptools==68.0.0.3",    # Bump types-* only with mypy
+    "typing-extensions ~= 4.7.1",    # Directly import Self from typing on Python 3.11+
     "wheel >= 0.41.1",
 ]
 dynamic = ["version", "readme"]
@@ -35,7 +36,7 @@ test = [
     "bashate ~= 2.1.1",
     "black ~= 23.7.0",
     'coverage ~= 7.3.0; python_version >= "3.11"',
-    'coverage[toml] ~= 7.3.0; python_version <= "3.10"',                          # Remove when on Python 3.11+
+    'coverage[toml] ~= 7.3.0; python_version <= "3.10"',
     "fixit ~= 2.0.0.post1",
     "mypy ~= 1.5.1",
     "pylint ~= 2.17.5",
@@ -72,6 +73,7 @@ write_to = "startrepo/_version.txt"
 # Taken from: https://coverage.readthedocs.io/en/coverage-5.5/config.html#syntax
 exclude_lines = [
     "def __repr__",               # Ignore missing debug-only code
+    "except ImportError(.*):",    # Likely Python version-specific code
     "if 0:",                      # Ignore non-runnable code not being run
     "if TYPE_CHECKING:",
     "if __name__ == .__main__.:", # Ignore non-runnable code not being run

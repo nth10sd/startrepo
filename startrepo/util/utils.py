@@ -11,7 +11,7 @@ UTIL_RUN_LOG.setLevel(INFO_LOG_LEVEL)
 
 
 def add_one(inp: int) -> int:
-    """Returns input added one.
+    """Return input added one.
 
     :param inp: Input number
     :return: Input added one

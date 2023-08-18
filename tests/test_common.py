@@ -1,4 +1,6 @@
-"""Tests for common.py"""
+"""Common tests."""
+
+# ruff: noqa: S101
 
 from __future__ import annotations
 
@@ -9,4 +11,4 @@ def test_losdevice() -> None:
     """Test the LOSDevice class."""
     device = LOSDevice("NewType")
     assert device.new_type == "NewType"
-    assert device.compile() == "FOO"
+    assert device.create() == "FOO"

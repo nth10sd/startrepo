@@ -1,4 +1,6 @@
-"""Tests for oneplus3t.py"""
+"""OP3T tests."""
+
+# ruff: noqa: S101
 
 from __future__ import annotations
 

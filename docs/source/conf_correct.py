@@ -24,7 +24,7 @@ import startrepo
 sys.path.insert(0, str(Path(__file__).parents[2]))
 
 # This has to be after sys.path.insert else workflow fails (Only required for django)
-# import startrepo  # noqa: E402  # pylint: disable=wrong-import-position
+# \import startrepo  # n oqa: E402  # pylint disable=wrong-import-position
 
 # -- Project information -----------------------------------------------------
 

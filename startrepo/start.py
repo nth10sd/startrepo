@@ -1,4 +1,4 @@
-"""start.py"""
+"""Begin running package code."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ RUN_LOG.setLevel(INFO_LOG_LEVEL)
 
 
 def main() -> None:
-    """main function"""
+    """Start."""
     LOSDevice("NewType")
     RUN_LOG.warning(add_one(2))
     RUN_LOG.error("foo")

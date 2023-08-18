@@ -12,14 +12,15 @@ class OP3T(LOSDevice):
     """OnePlus 3T object."""
 
     def __init__(self) -> None:
+        """Initialize the OP3T."""
         super().__init__("")
 
     # @classmethod
     # def main(cls) -> None:
-    #     """Main function of OP3T class.
+    #     """OP3T main method.
     #     """
 
     # @staticmethod
-    # def compile() -> None:
-    #     """Build a shell
+    # def create() -> None:
+    #     """Build a shell.
     #     """
