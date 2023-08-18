@@ -1,3 +1,7 @@
+# 2.0.2 (2023-08-18)
+
+1. README updates
+
 # 2.0.1 (2023-08-18)
 
 1. Test Python 3.11 on CI
