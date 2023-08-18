@@ -52,7 +52,6 @@ test = [
     "pytest-sugar ~= 0.9.7",
     "pytest-xdist ~= 3.3.1",
     "pytest-vulture ~= 2.1.1",
-    'pytype==2023.8.14; platform_system == "Linux" and python_version <= "3.10"',
     "refurb ~= 1.20.0",
     "ruff==0.0.285",
     "semgrep ~= 1.36.0",
@@ -213,14 +212,6 @@ log_level = "DEBUG"
 markers = ["online", "slow"]
 python_files = "tests.py test_*.py *_tests.py"
 xfail_strict = true
-
-[tool.pytype]
-inputs = ["."]
-exclude = ["build/"]
-jobs = "auto"
-keep_going = "True"
-platform = "linux"
-python_version = "3.10"
 
 [tool.refurb]
 ignore = ["110"]
