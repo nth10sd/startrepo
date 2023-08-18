@@ -1,3 +1,10 @@
+# 2.0.1 (2023-08-18)
+
+1. Test Python 3.11 on CI
+1. Remove old licensing boilerplate
+1. Stop using `pytype`, as its development has slowed immensely, also `mypy` and `pyright` seem sufficient
+1. Fix all outstanding CI issues
+
 # 2.0.0 (2023-08-18)
 
 1. Use the MIT License
