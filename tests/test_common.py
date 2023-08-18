@@ -6,7 +6,7 @@
 
 from __future__ import annotations
 
-from bstrap.common import LOSDevice
+from startrepo.common import LOSDevice
 
 
 def test_losdevice() -> None:

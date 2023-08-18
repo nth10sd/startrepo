@@ -6,7 +6,7 @@
 
 from __future__ import annotations
 
-from bstrap.devices.oneplus3t import OP3T
+from startrepo.devices.oneplus3t import OP3T
 
 
 def test_op3t() -> None:

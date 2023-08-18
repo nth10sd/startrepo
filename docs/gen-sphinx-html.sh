@@ -1,14 +1,14 @@
 #! /bin/bash
 
 # Bootstrap Sphinx
-sphinx-quickstart --sep -p "bstrap" -a "FOO" -r "BAR" -l "en" \
+sphinx-quickstart --sep -p "startrepo" -a "FOO" -r "BAR" -l "en" \
     --ext-autodoc --no-makefile --no-batchfile --no-use-make-mode;
 
 # Copy over the intended copy of conf.py
 cp source/conf_correct.py source/conf.py;
 
 # Generate Sphinx documentation
-sphinx-apidoc -o source/ ../bstrap/;
+sphinx-apidoc -o source/ ../startrepo/;
 
 # Add "modules" to portion of index.rst in the middle of several empty lines
 tr '\n' '\f' < source/index.rst | \

@@ -21,7 +21,7 @@ source ~/venv-ls-py310/bin/activate && pip install --upgrade pip setuptools whee
 Running in the above venv:
 
 ```
-(venv-ls-py310) $ git clone git@github.com:nth10sd/bstrap.git
+(venv-ls-py310) $ git clone git@github.com:nth10sd/startrepo.git
 
 (venv-ls-py310) $ git clone REPLACEME
                             ^^^^^^^^^
@@ -29,12 +29,12 @@ Running in the above venv:
 (venv-ls-py310) $ cd REPLACEME
                      ^^^^^^^^^
 
-(venv-ls-py310) $ cp -r ../bstrap/* ../bstrap/.gitignore ../bstrap/.vulture_allowlist ../bstrap/.github . && rm -rf *.egg-info/
+(venv-ls-py310) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf *.egg-info/
 
-(venv-ls-py310) $ mv bstrap/ REPLACEME
+(venv-ls-py310) $ mv startrepo/ REPLACEME
                              ^^^^^^^^^
 
-(venv-ls-py310) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/bstrap/REPLACEME/g'
+(venv-ls-py310) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/startrepo/REPLACEME/g'
                                                                                       ^^^^^^^^^
 ```
 

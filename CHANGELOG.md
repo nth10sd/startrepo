@@ -1,3 +1,12 @@
+# 2.0.0 (2023-08-18)
+
+1. Use the MIT License
+1. Rename to `startrepo`
+1. General Python package structure updated
+1. Switch entirely to `pyproject.toml` and use `setuptools-scm`
+1. Switch entirely to `ruff` from `flake8`
+1. `.gitignore` template updated
+
 # 1.2.0 (2023-08-17)
 
 Checkpoint release prior to upcoming 2.x release.

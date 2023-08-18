@@ -1,5 +1,7 @@
 """Configuration file for the Sphinx documentation builder."""
 
+# ruff: noqa: INP001
+
 # pylint: disable=invalid-name
 
 # This file only contains a selection of the most common options. For a full
@@ -17,18 +19,19 @@ from __future__ import annotations
 from pathlib import Path
 import sys
 
-import bstrap
+import startrepo
 
 sys.path.insert(0, str(Path(__file__).parents[2]))
 
+# This has to be after sys.path.insert else workflow fails (Only required for django)
+# import startrepo  # noqa: E402  # pylint: disable=wrong-import-position
+
 # -- Project information -----------------------------------------------------
 
-project = bstrap.__title__
-copyright = bstrap.__copyright__  # pylint: disable=redefined-builtin
-author = bstrap.__author__
+project = startrepo.__title__
 
 # The full version, including alpha/beta/rc tags
-release = bstrap.__version__
+release = startrepo.__version__
 
 
 # -- General configuration ---------------------------------------------------

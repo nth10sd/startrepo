@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from logging import INFO as INFO_LOG_LEVEL
 
-from bstrap.util.logging import get_logger
+from startrepo.util.logging import get_logger
 
 UTIL_RUN_LOG = get_logger(__name__, fmt="%(message)s")
 UTIL_RUN_LOG.setLevel(INFO_LOG_LEVEL)

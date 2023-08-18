@@ -8,9 +8,9 @@ from __future__ import annotations
 
 from logging import INFO as INFO_LOG_LEVEL
 
-from bstrap.common import LOSDevice
-from bstrap.util.logging import get_logger
-from bstrap.util.utils import add_one
+from startrepo.common import LOSDevice
+from startrepo.util.logging import get_logger
+from startrepo.util.utils import add_one
 
 RUN_LOG = get_logger(__name__)
 RUN_LOG.setLevel(INFO_LOG_LEVEL)
