@@ -29,13 +29,13 @@ Running in the above venv:
 (venv-ls-py310) $ cd REPLACEME
                      ^^^^^^^^^
 
-(venv-ls-py310) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf *.egg-info/
+(venv-ls-py310) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf build/ *.egg*-info/
 
 (venv-ls-py310) $ mv startrepo/ REPLACEME
-                             ^^^^^^^^^
+                                ^^^^^^^^^
 
 (venv-ls-py310) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/startrepo/REPLACEME/g'
-                                                                                      ^^^^^^^^^
+                                                                                         ^^^^^^^^^
 ```
 
 Install your module by running:
@@ -51,23 +51,25 @@ Run your new module using:
                                ^^^^^^^^^
 ```
 
+Delete the CodeQL steps in the GitHub Actions `.yml` workflow settings file if they are not required.
+
 ## Run tools on your package
 
 (All commands here must be run within the `venv`, in the main repository directory - not any subfolders)
 
 For linters only:
 ```
-for TOOL in flake8 mypy pylint ; do "$TOOL" tests/ $(python -c "import subprocess; out = subprocess.run([\"rg\", \"MODULE_NAME =\", \"setup.py\"], capture_output=True).stdout.decode(\"utf-8\"); print(out.split(\" = \\\"\", maxsplit=1)[-1].rstrip().removesuffix(\"\\\"\") + \"/\")") ; done;
+for TOOL in ruff mypy pylint ; do "$TOOL" $(python -c "from pathlib import Path; exec('try: import tomllib\nexcept ImportError: import tomli as tomllib\nwith Path(\"pyproject.toml\").open(mode=\"rb\") as fp:\n cfg = tomllib.load(fp)\n print(f\'{cfg[\"project\"][\"name\"]}/{\" tests/\" if Path(\"tests/\").is_dir() else \"\"}\')')") ; done;
 ```
 
 For comprehensive tests and all linters:
 ```
-pytest --bandit --black --cov --flake8 --mypy --pylint
+python -u -m pytest --black --cov --mypy --pylint --ruff
 ```
 
 For comprehensive tests and all linters **except** slow tests:
 ```
-pytest --bandit --black --cov --flake8 --mypy --pylint -m "not slow"
+python -u -m pytest --black --cov --mypy --pylint --ruff -m "not slow"
 ```
 
 ## Documentation generation via Sphinx
