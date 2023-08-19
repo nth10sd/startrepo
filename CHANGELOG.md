@@ -1,3 +1,8 @@
+# 2.0.4 (2023-08-19)
+
+1. We no longer use `pytest-vulture` since it uses a different config file than `vulture` itself
+1. Tweak bashate command on CI to ignore the `E006` (line too long) issue
+
 # 2.0.3 (2023-08-18)
 
 1. Ship the `py.typed` file with the package properly
