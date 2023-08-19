@@ -1,1 +1,2 @@
 include startrepo/_version.txt
+include startrepo/py.typed
