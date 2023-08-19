@@ -1,3 +1,7 @@
+# 2.0.3 (2023-08-18)
+
+1. Ship the `py.typed` file with the package properly
+
 # 2.0.2 (2023-08-18)
 
 1. README updates
