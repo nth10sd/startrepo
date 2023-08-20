@@ -1,3 +1,7 @@
+## 2.0.6 (2023-08-20)
+
+1. Exclude build/lib/* subdirectory when searching for known ignore lines on CI
+
 ## 2.0.5 (2023-08-20)
 
 1. Exclude tests in directory adjacent to package directory by default
