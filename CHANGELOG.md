@@ -1,24 +1,24 @@
-# 2.0.4 (2023-08-19)
+## 2.0.4 (2023-08-19)
 
 1. We no longer use `pytest-vulture` since it uses a different config file than `vulture` itself
 1. Tweak bashate command on CI to ignore the `E006` (line too long) issue
 
-# 2.0.3 (2023-08-18)
+## 2.0.3 (2023-08-18)
 
 1. Ship the `py.typed` file with the package properly
 
-# 2.0.2 (2023-08-18)
+## 2.0.2 (2023-08-18)
 
 1. README updates
 
-# 2.0.1 (2023-08-18)
+## 2.0.1 (2023-08-18)
 
 1. Test Python 3.11 on CI
 1. Remove old licensing boilerplate
 1. Stop using `pytype`, as its development has slowed immensely, also `mypy` and `pyright` seem sufficient
 1. Fix all outstanding CI issues
 
-# 2.0.0 (2023-08-18)
+## 2.0.0 (2023-08-18)
 
 1. Use the MIT License
 1. Rename to `startrepo`
@@ -27,7 +27,7 @@
 1. Switch entirely to `ruff` from `flake8`
 1. `.gitignore` template updated
 
-# 1.2.0 (2023-08-17)
+## 1.2.0 (2023-08-17)
 
 Checkpoint release prior to upcoming 2.x release.
 
@@ -39,7 +39,7 @@ Checkpoint release prior to upcoming 2.x release.
 1. Ensure generating Sphinx documentation always works, especially via GitHub Actions
 1. Continue even though codecov errors out primarily because codecov limits the number of uploads allowed for each commit, even if scheduled
 
-# 1.1.0 (2021-05-22)
+## 1.1.0 (2021-05-22)
 
 1. Bump to Python 3.9 as a minimum version for new projects
 1. Support more tools, such as pyupgrade and vulture for finding dead code
@@ -47,13 +47,13 @@ Checkpoint release prior to upcoming 2.x release.
 1. Support Windows, Ubuntu Linux and macOS on GitHub Actions
 1. Dependency version bumps
 
-# 1.0.1 (2020-08-31)
+## 1.0.1 (2020-08-31)
 
 1. Add CHANGELOG.md
 1. Add Sphinx documentation generation
 1. Add notes for codecov submission
 
-# 1.0.0 (2020-08-13)
+## 1.0.0 (2020-08-13)
 
 First version. To adapt this to something desirable:
 
