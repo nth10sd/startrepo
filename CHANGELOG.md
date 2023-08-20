@@ -1,3 +1,8 @@
+## 2.0.5 (2023-08-20)
+
+1. Exclude tests in directory adjacent to package directory by default
+1. Bump `vulture` to 2.9
+
 ## 2.0.4 (2023-08-19)
 
 1. We no longer use `pytest-vulture` since it uses a different config file than `vulture` itself
