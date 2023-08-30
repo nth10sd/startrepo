@@ -1,3 +1,8 @@
+## 2.1.1 (2023-08-30)
+
+1. Make sure `sphinx` tries to generate docs first, then fail on CI when docs contain sphinx errors
+1. Run GitHub Actions CI on all major operating systems
+
 ## 2.1.0 (2023-08-30)
 
 1. Switch `ruff` to select all rules automatically to run, instead of manually specifying each category
