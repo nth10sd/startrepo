@@ -1,6 +1,13 @@
+## 2.1.0 (2023-08-30)
+
+1. Switch `ruff` to select all rules automatically to run, instead of manually specifying each category
+1. Revert `python_files` setting to the default and add `--strict-markers` to `addopts`
+1. Switch back to `pytest-instafail` and add `--instafail` to `pytest` run command
+1. Bump `pyright` to 1.1.324, `ruff` to 0.0.286, `semgrep` to 1.37.0, `sphinx` to 7.2.4 and `vulture` to 2.9.1
+
 ## 2.0.6 (2023-08-20)
 
-1. Exclude build/lib/* subdirectory when searching for known ignore lines on CI
+1. Exclude build/lib/\* subdirectory when searching for known ignore lines on CI
 
 ## 2.0.5 (2023-08-20)
 
