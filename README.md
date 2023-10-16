@@ -24,18 +24,18 @@ Running in the above venv:
 (venv-startrepo) $ git clone git@github.com:nth10sd/startrepo.git
 
 (venv-startrepo) $ git clone REPLACEME
-                            ^^^^^^^^^
+                             ^^^^^^^^^
 
 (venv-startrepo) $ cd REPLACEME
-                     ^^^^^^^^^
+                      ^^^^^^^^^
 
 (venv-startrepo) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf build/ *.egg*-info/
 
 (venv-startrepo) $ mv startrepo/ REPLACEME
-                                ^^^^^^^^^
+                                 ^^^^^^^^^
 
 (venv-startrepo) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/startrepo/REPLACEME/g'
-                                                                                         ^^^^^^^^^
+                                                                                          ^^^^^^^^^
 ```
 
 Install your module by running:
@@ -48,7 +48,7 @@ Run your new module using:
 
 ```
 (venv-startrepo) $ python -u -m REPLACEME
-                               ^^^^^^^^^
+                                ^^^^^^^^^
 ```
 
 Delete the CodeQL steps in the GitHub Actions `.yml` workflow settings file if they are not required.
