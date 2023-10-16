@@ -13,7 +13,7 @@ python3.10 -u -m venv ~/venv-startrepo ;
 ```
 
 ```
-source ~/venv-startrepo/bin/activate && pip install --upgrade pip setuptools wheel ;
+source ~/venv-startrepo/bin/activate && pip install --upgrade pip ;
 ```
 
 ## Create a new module
