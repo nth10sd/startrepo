@@ -9,11 +9,11 @@ Create a new repository for your module on GitHub with no files.
 Create a new Python 3.10 (install it beforehand) virtual environment using `venv` and switch to it.
 
 ```
-python3.10 -u -m venv ~/venv-ls-py310 ;
+python3.10 -u -m venv ~/venv-startrepo ;
 ```
 
 ```
-source ~/venv-ls-py310/bin/activate && pip install --upgrade pip setuptools wheel ;
+source ~/venv-startrepo/bin/activate && pip install --upgrade pip setuptools wheel ;
 ```
 
 ## Create a new module
@@ -21,33 +21,33 @@ source ~/venv-ls-py310/bin/activate && pip install --upgrade pip setuptools whee
 Running in the above venv:
 
 ```
-(venv-ls-py310) $ git clone git@github.com:nth10sd/startrepo.git
+(venv-startrepo) $ git clone git@github.com:nth10sd/startrepo.git
 
-(venv-ls-py310) $ git clone REPLACEME
+(venv-startrepo) $ git clone REPLACEME
                             ^^^^^^^^^
 
-(venv-ls-py310) $ cd REPLACEME
+(venv-startrepo) $ cd REPLACEME
                      ^^^^^^^^^
 
-(venv-ls-py310) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf build/ *.egg*-info/
+(venv-startrepo) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf build/ *.egg*-info/
 
-(venv-ls-py310) $ mv startrepo/ REPLACEME
+(venv-startrepo) $ mv startrepo/ REPLACEME
                                 ^^^^^^^^^
 
-(venv-ls-py310) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/startrepo/REPLACEME/g'
+(venv-startrepo) $ find . ! \( -path ./.git -prune \) -type f | xargs sed -i 's/startrepo/REPLACEME/g'
                                                                                          ^^^^^^^^^
 ```
 
 Install your module by running:
 
 ```
-(venv-ls-py310) $ pip install --upgrade -r requirements.txt && pip install --upgrade -e .
+(venv-startrepo) $ pip install --upgrade -r requirements.txt && pip install --upgrade -e .
 ```
 
 Run your new module using:
 
 ```
-(venv-ls-py310) $ python -u -m REPLACEME
+(venv-startrepo) $ python -u -m REPLACEME
                                ^^^^^^^^^
 ```
 
