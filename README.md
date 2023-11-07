@@ -64,12 +64,12 @@ for TOOL in ruff mypy pylint ; do "$TOOL" $(python -c "from pathlib import Path;
 
 For comprehensive tests and all linters:
 ```
-python -u -m pytest --black --cov --mypy --pylint --ruff
+python -u -m pytest --cov --mypy --pylint --ruff --ruff-format
 ```
 
 For comprehensive tests and all linters **except** slow tests:
 ```
-python -u -m pytest --black --cov --mypy --pylint --ruff -m "not slow"
+python -u -m pytest --cov --mypy --pylint --ruff --ruff-format -m "not slow"
 ```
 
 ## Documentation generation via Sphinx
