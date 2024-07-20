@@ -27,7 +27,7 @@ dependencies = [
     "setuptools >= 68.2.2",
     "setuptools-scm[toml] >= 7.1.0",
     "types-setuptools==68.2.0.0",    # Bump types-* only with mypy
-    "typing-extensions ~= 4.8.0",    # Directly import Self from typing on Python 3.11+
+    "typing-extensions ~= 4.12.2",   # Directly import Self from typing on Python 3.11+
     "wheel >= 0.41.2",
 ]
 dynamic = ["version", "readme"]
