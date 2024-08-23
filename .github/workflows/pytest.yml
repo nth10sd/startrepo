@@ -222,5 +222,5 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           verbose: true
 
-      - name: Minimize uv cache
+      - name: Minimize uv cache, --ci will only keep locally-built packages
         run: uv cache prune --ci
