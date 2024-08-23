@@ -161,6 +161,8 @@ typing-extensions==4.12.2
     #   mypy
 urllib3==2.2.2
     # via requests
+uv==0.3.2
+    # via startrepo (pyproject.toml)
 vulture==2.11
     # via startrepo (pyproject.toml)
 wheel==0.44.0
