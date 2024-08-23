@@ -1,3 +1,9 @@
+## 2.2.0 (2024-08-23)
+
+1. Move to `uv` usage
+1. Add `--order-dependencies` and `--dist=loadscope` to default pytest options
+1. Define `__slots__` for class properties and enforce method overrides using the overrides package
+
 ## 2.1.1 (2023-08-30)
 
 1. Make sure `sphinx` tries to generate docs first, then fail on CI when docs contain sphinx errors
