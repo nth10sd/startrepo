@@ -12,7 +12,7 @@ python3.10 -u -m venv ~/venv-startrepo ;
 ```
 
 ```
-source ~/venv-startrepo/bin/activate && pip install --upgrade pip ;
+source ~/venv-startrepo/bin/activate && pip install --upgrade uv ;
 ```
 
 ## Create a new module
@@ -40,7 +40,7 @@ Running in the above venv:
 Install your module by running:
 
 ```
-(venv-startrepo) $ pip install --upgrade -r requirements.txt && pip install --upgrade -e .
+(venv-startrepo) $ uv pip install --upgrade -r requirements.txt -e . ;
 ```
 
 Run your new module using:
