@@ -47,7 +47,7 @@ markupsafe==2.1.5
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.11.1
+mypy==1.11.2
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
@@ -71,13 +71,13 @@ pluggy==1.5.0
     # via pytest
 pygments==2.18.0
     # via sphinx
-pylint==3.2.6
+pylint==3.2.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyright==1.1.377 ; platform_system == 'Linux'
+pyright==1.1.381 ; platform_system == 'Linux'
     # via startrepo (pyproject.toml)
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   startrepo (pyproject.toml)
     #   pytest-cov
@@ -111,7 +111,7 @@ refurb==2.0.0
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.6.2
+ruff==0.6.5
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -161,9 +161,9 @@ typing-extensions==4.12.2
     #   mypy
 urllib3==2.2.2
     # via requests
-uv==0.3.2
+uv==0.4.13
     # via startrepo (pyproject.toml)
-vulture==2.11
+vulture==2.12
     # via startrepo (pyproject.toml)
 wheel==0.44.0
     # via startrepo (pyproject.toml)
