@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml requirements.in --all-extras --no-strip-extras --no-strip-markers --universal --output-file requirements.txt
 alabaster==1.0.0
     # via sphinx
-astroid==3.3.3
+astroid==3.3.4
     # via pylint
 attrs==24.2.0
     # via pytest-mypy
@@ -71,11 +71,11 @@ pluggy==1.5.0
     # via pytest
 pygments==2.18.0
     # via sphinx
-pylint==3.3.0
+pylint==3.3.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyright==1.1.381 ; platform_system == 'Linux'
+pyright==1.1.382.post1 ; platform_system == 'Linux'
     # via startrepo (pyproject.toml)
 pytest==8.3.3
     # via
@@ -111,7 +111,7 @@ refurb==2.0.0
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.6.6
+ruff==0.6.8
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -159,9 +159,10 @@ typing-extensions==4.12.2
     #   startrepo (pyproject.toml)
     #   astroid
     #   mypy
+    #   pyright
 urllib3==2.2.2
     # via requests
-uv==0.4.13
+uv==0.4.17
     # via startrepo (pyproject.toml)
 vulture==2.12
     # via startrepo (pyproject.toml)
