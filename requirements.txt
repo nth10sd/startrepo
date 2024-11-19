@@ -115,7 +115,7 @@ ruff==0.7.4
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
-setuptools==71.1.0
+setuptools==75.5.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-dependency
@@ -152,7 +152,7 @@ tomli==2.1.0 ; python_full_version <= '3.11'
     #   vulture
 tomlkit==0.13.2
     # via pylint
-types-setuptools==71.1.0.20240726
+types-setuptools==75.5.0.20241121
     # via startrepo (pyproject.toml)
 typing-extensions==4.12.2
     # via
@@ -166,5 +166,5 @@ uv==0.5.3
     # via startrepo (pyproject.toml)
 vulture==2.13
     # via startrepo (pyproject.toml)
-wheel==0.44.0
+wheel==0.45.0
     # via startrepo (pyproject.toml)
