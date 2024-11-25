@@ -27,7 +27,7 @@ class LOSDevice(EnforceOverrides):
         self.new_type = new_type
 
     @classmethod
-    def main(cls: type[Self]) -> None:
+    def main(cls: type[Self]) -> None:  # vulture: ignore
         """LOSDevice main method."""
 
     @staticmethod
