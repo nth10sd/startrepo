@@ -4,22 +4,22 @@ alabaster==1.0.0
     # via sphinx
 astroid==3.3.8
     # via pylint
-attrs==24.2.0
+attrs==24.3.0
     # via pytest-mypy
 babel==2.16.0
     # via sphinx
 bashate==2.1.1
     # via startrepo (pyproject.toml)
-certifi==2024.8.30
+certifi==2024.12.14
     # via requests
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via requests
 colorama==0.4.6 ; sys_platform == 'win32'
     # via
     #   pylint
     #   pytest
     #   sphinx
-coverage[toml]==7.6.9
+coverage[toml]==7.6.10
     # via
     #   startrepo (pyproject.toml)
     #   pytest-cov
@@ -118,7 +118,7 @@ ruff==0.8.4
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
-setuptools==75.5.0
+setuptools==75.6.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-dependency
@@ -141,11 +141,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tomli==2.1.0 ; python_full_version == '3.11'
-    # via
-    #   startrepo (pyproject.toml)
-    #   coverage
-tomli==2.2.1 ; python_full_version < '3.11'
+tomli==2.2.1 ; python_full_version <= '3.11'
     # via
     #   startrepo (pyproject.toml)
     #   coverage
@@ -159,7 +155,7 @@ tomli==2.2.1 ; python_full_version < '3.11'
     #   vulture
 tomlkit==0.13.2
     # via pylint
-types-setuptools==75.5.0.20241121
+types-setuptools==75.6.0.20241223
     # via startrepo (pyproject.toml)
 typing-extensions==4.12.2
     # via
@@ -167,13 +163,13 @@ typing-extensions==4.12.2
     #   astroid
     #   mypy
     #   pyright
-urllib3==2.2.3
+urllib3==2.3.0
     # via requests
-uv==0.5.11
+uv==0.5.12
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
     #   startrepo (pyproject.toml)
     #   pytest-vulture
-wheel==0.45.0
+wheel==0.45.1
     # via startrepo (pyproject.toml)
