@@ -47,14 +47,14 @@ markupsafe==3.0.2
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.13.0
+mypy==1.14.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
     #   refurb
 mypy-extensions==1.0.0
     # via mypy
-nodeenv==1.9.1 ; platform_system == 'Linux'
+nodeenv==1.9.1 ; sys_platform == 'linux'
     # via pyright
 overrides==7.7.0
     # via startrepo (pyproject.toml)
@@ -69,13 +69,13 @@ platformdirs==4.3.6
     # via pylint
 pluggy==1.5.0
     # via pytest
-pygments==2.18.0
+pygments==2.19.1
     # via sphinx
 pylint==3.3.3
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyright==1.1.391 ; platform_system == 'Linux'
+pyright==1.1.392 ; sys_platform == 'linux'
     # via startrepo (pyproject.toml)
 pytest==8.3.4
     # via
@@ -114,11 +114,11 @@ refurb==2.0.0
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.8.4
+ruff==0.8.6
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
-setuptools==75.6.0
+setuptools==75.8.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-dependency
@@ -155,7 +155,7 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     #   vulture
 tomlkit==0.13.2
     # via pylint
-types-setuptools==75.6.0.20241223
+types-setuptools==75.8.0.20250110
     # via startrepo (pyproject.toml)
 typing-extensions==4.12.2
     # via
@@ -165,7 +165,7 @@ typing-extensions==4.12.2
     #   pyright
 urllib3==2.3.0
     # via requests
-uv==0.5.12
+uv==0.5.21
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
