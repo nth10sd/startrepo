@@ -4,13 +4,13 @@ alabaster==1.0.0
     # via sphinx
 astroid==3.3.8
     # via pylint
-attrs==24.3.0
+attrs==25.1.0
     # via pytest-mypy
-babel==2.16.0
+babel==2.17.0
     # via sphinx
 bashate==2.1.1
     # via startrepo (pyproject.toml)
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 charset-normalizer==3.4.1
     # via requests
@@ -19,7 +19,7 @@ colorama==0.4.6 ; sys_platform == 'win32'
     #   pylint
     #   pytest
     #   sphinx
-coverage[toml]==7.6.10
+coverage[toml]==7.6.12
     # via
     #   startrepo (pyproject.toml)
     #   pytest-cov
@@ -31,7 +31,7 @@ exceptiongroup==1.2.2 ; python_full_version < '3.11'
     # via pytest
 execnet==2.1.1
     # via pytest-xdist
-filelock==3.16.1
+filelock==3.17.0
     # via pytest-mypy
 idna==3.10
     # via requests
@@ -39,7 +39,7 @@ imagesize==1.4.1
     # via sphinx
 iniconfig==2.0.0
     # via pytest
-isort==5.13.2
+isort==6.0.0
     # via pylint
 jinja2==3.1.5
     # via sphinx
@@ -47,7 +47,7 @@ markupsafe==3.0.2
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.14.1
+mypy==1.15.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
@@ -63,7 +63,7 @@ packaging==24.2
     #   pytest
     #   setuptools-scm
     #   sphinx
-pbr==6.1.0
+pbr==6.1.1
     # via bashate
 platformdirs==4.3.6
     # via pylint
@@ -71,11 +71,11 @@ pluggy==1.5.0
     # via pytest
 pygments==2.19.1
     # via sphinx
-pylint==3.3.3
+pylint==3.3.4
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyright==1.1.392 ; sys_platform == 'linux'
+pyright==1.1.394 ; sys_platform == 'linux'
     # via startrepo (pyproject.toml)
 pytest==8.3.4
     # via
@@ -121,6 +121,7 @@ ruff==0.8.6
 setuptools==75.8.0
     # via
     #   startrepo (pyproject.toml)
+    #   pbr
     #   pytest-dependency
     #   setuptools-scm
 setuptools-scm[toml]==8.1.0
@@ -165,7 +166,7 @@ typing-extensions==4.12.2
     #   pyright
 urllib3==2.3.0
     # via requests
-uv==0.5.21
+uv==0.6.1
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
