@@ -71,7 +71,7 @@ pluggy==1.5.0
     # via pytest
 pygments==2.19.1
     # via sphinx
-pylint==3.3.5
+pylint==3.3.6
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
@@ -114,7 +114,7 @@ refurb==2.0.0
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.11.0
+ruff==0.11.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -166,7 +166,7 @@ typing-extensions==4.12.2
     #   pyright
 urllib3==2.3.0
     # via requests
-uv==0.6.8
+uv==0.6.9
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
