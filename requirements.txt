@@ -8,9 +8,9 @@ babel==2.17.0
     # via sphinx
 bashate==2.1.1
     # via startrepo (pyproject.toml)
-certifi==2025.1.31
+certifi==2025.4.26
     # via requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 colorama==0.4.6 ; sys_platform == 'win32'
     # via
@@ -21,7 +21,7 @@ coverage[toml]==7.8.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-cov
-dill==0.3.9
+dill==0.4.0
     # via pylint
 docutils==0.21.2
     # via sphinx
@@ -50,30 +50,30 @@ mypy==1.15.0
     #   startrepo (pyproject.toml)
     #   pytest-mypy
     #   refurb
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via mypy
 nodeenv==1.9.1 ; sys_platform == 'linux'
     # via pyright
 overrides==7.7.0
     # via startrepo (pyproject.toml)
-packaging==24.2
+packaging==25.0
     # via
     #   pytest
     #   setuptools-scm
     #   sphinx
 pbr==6.1.1
     # via bashate
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via pylint
 pluggy==1.5.0
     # via pytest
 pygments==2.19.1
     # via sphinx
-pylint==3.3.6
+pylint==3.3.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyright==1.1.399 ; sys_platform == 'linux'
+pyright==1.1.400 ; sys_platform == 'linux'
     # via startrepo (pyproject.toml)
 pytest==8.3.5
     # via
@@ -112,7 +112,7 @@ refurb==2.0.0
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.11.6
+ruff==0.11.8
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -122,7 +122,7 @@ setuptools==75.8.0
     #   pbr
     #   pytest-dependency
     #   setuptools-scm
-setuptools-scm[toml]==8.2.0
+setuptools-scm[toml]==8.3.1
     # via startrepo (pyproject.toml)
 snowballstemmer==2.2.0
     # via sphinx
@@ -154,6 +154,8 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     #   vulture
 tomlkit==0.13.2
     # via pylint
+ty==0.0.0a7
+    # via startrepo (pyproject.toml)
 types-setuptools==75.8.0.20250110
     # via startrepo (pyproject.toml)
 typing-extensions==4.12.2
@@ -162,9 +164,9 @@ typing-extensions==4.12.2
     #   astroid
     #   mypy
     #   pyright
-urllib3==2.3.0
+urllib3==2.4.0
     # via requests
-uv==0.6.14
+uv==0.7.3
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
