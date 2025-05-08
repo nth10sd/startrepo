@@ -20,11 +20,11 @@ class LOSDevice(EnforceOverrides):
     :param new_type: This is a new type for LOSDevice
     """
 
-    __slots__ = ("new_type",)
+    __slots__: list[str] = ["new_type"]
 
     def __init__(self, new_type: str) -> None:
         """Initialize the LOSDevice."""
-        self.new_type = new_type
+        self.new_type: str = new_type
 
     @classmethod
     def main(cls: type[Self]) -> None:  # vulture: ignore

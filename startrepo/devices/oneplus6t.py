@@ -13,7 +13,7 @@ from startrepo.common import LOSDevice
 class OP6T(LOSDevice, EnforceOverrides):
     """OnePlus 6T object."""
 
-    __slots__ = ()
+    __slots__: list[str] = []
 
     def __init__(self) -> None:
         """Initialize the OP6T."""

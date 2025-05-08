@@ -14,6 +14,6 @@ RUN_LOG.setLevel(INFO_LOG_LEVEL)
 
 def main() -> None:
     """Start."""
-    LOSDevice("NewType")
+    _ = LOSDevice("NewType")
     RUN_LOG.warning(add_one(2))
     RUN_LOG.error("foo")
