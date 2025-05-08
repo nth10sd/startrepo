@@ -6,8 +6,6 @@ astroid==3.3.9
     # via pylint
 babel==2.17.0
     # via sphinx
-bashate==2.1.1
-    # via startrepo (pyproject.toml)
 certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.2
@@ -61,8 +59,6 @@ packaging==25.0
     #   pytest
     #   setuptools-scm
     #   sphinx
-pbr==6.1.1
-    # via bashate
 platformdirs==4.3.8
     # via pylint
 pluggy==1.5.0
@@ -119,7 +115,6 @@ ruff==0.11.8
 setuptools==75.8.0
     # via
     #   startrepo (pyproject.toml)
-    #   pbr
     #   pytest-dependency
     #   setuptools-scm
 setuptools-scm[toml]==8.3.1
