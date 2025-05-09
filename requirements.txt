@@ -49,7 +49,6 @@ mypy==1.15.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
-    #   refurb
 mypy-extensions==1.1.0
     # via mypy
 nodejs-wheel-binaries==22.15.0
@@ -104,8 +103,6 @@ pytest-vulture==2.2.2
     # via startrepo (pyproject.toml)
 pytest-xdist==3.6.1
     # via startrepo (pyproject.toml)
-refurb==2.0.0
-    # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
 ruff==0.11.8
@@ -143,7 +140,6 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     #   pylint
     #   pytest
     #   pytest-pylint
-    #   refurb
     #   setuptools-scm
     #   sphinx
     #   vulture
