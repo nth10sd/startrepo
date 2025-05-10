@@ -70,6 +70,8 @@ pylint==3.3.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
+pyrefly==0.14.1
+    # via startrepo (pyproject.toml)
 pytest==8.3.5
     # via
     #   startrepo (pyproject.toml)
@@ -105,7 +107,7 @@ pytest-xdist==3.6.1
     # via startrepo (pyproject.toml)
 requests==2.32.3
     # via sphinx
-ruff==0.11.8
+ruff==0.11.9
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -116,7 +118,7 @@ setuptools==75.8.0
     #   setuptools-scm
 setuptools-scm[toml]==8.3.1
     # via startrepo (pyproject.toml)
-snowballstemmer==2.2.0
+snowballstemmer==3.0.1
     # via sphinx
 sphinx==8.1.3
     # via startrepo (pyproject.toml)
@@ -145,7 +147,7 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     #   vulture
 tomlkit==0.13.2
     # via pylint
-ty==0.0.0a7
+ty==0.0.0a8
     # via startrepo (pyproject.toml)
 types-setuptools==75.8.0.20250110
     # via startrepo (pyproject.toml)
