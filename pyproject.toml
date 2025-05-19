@@ -1,6 +1,6 @@
 [build-system]
 requires = [
-    "setuptools==75.8.0",
+    "setuptools==78.1.1",
     "setuptools-scm[toml] >= 8.1.0",
     "wheel==0.45.1",
 ]
@@ -24,7 +24,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "setuptools==75.8.0",
+    "setuptools==78.1.1",
     "setuptools-scm[toml] >= 8.1.0",
     "types-setuptools==75.8.0.20250110",        # Bump types-* only with mypy
     "typing-extensions ~= 4.12.2",              # Directly import Self from typing on Python 3.11+
