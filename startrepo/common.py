@@ -2,13 +2,8 @@
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING
-
 from overrides import EnforceOverrides
-
-if TYPE_CHECKING:
-    from typing_extensions import Self  # Directly import from typing on Python 3.11+
-
+from typing_extensions import Self  # Directly import from typing on Python 3.11+
 
 # class LOSDeviceError(Exception, EnforceOverrides):
 #     """Error class unique to LOSDevice objects."""
