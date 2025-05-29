@@ -72,7 +72,7 @@ pylint==3.3.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.17.0
+pyrefly==0.17.1
     # via startrepo (pyproject.toml)
 pytest==8.3.5
     # via
