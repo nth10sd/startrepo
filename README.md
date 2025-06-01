@@ -5,10 +5,10 @@
 ## Prerequisites
 Create a new repository for your module on GitHub with no files.
 
-Create a new Python 3.10 (install it beforehand) virtual environment using `venv` and switch to it.
+Create a new Python 3.11 (install it beforehand) virtual environment using `venv` and switch to it.
 
 ```
-python3.10 -u -m venv ~/venv-startrepo ;
+python3.11 -u -m venv ~/venv-startrepo ;
 ```
 
 ```
