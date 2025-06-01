@@ -204,8 +204,8 @@ score = "no"
 py-version = "3.11"
 
 [tool.pyrefly]
-search_path = []
 python_version = "3.11"
+search_path = []
 
 [tool.pytest.ini_options]
 addopts = [
