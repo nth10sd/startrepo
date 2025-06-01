@@ -8,8 +8,6 @@ babel==2.17.0
     # via sphinx
 basedpyright==1.29.2
     # via startrepo (pyproject.toml)
-beartype==0.21.0
-    # via startrepo (pyproject.toml)
 certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.2
