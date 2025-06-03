@@ -68,7 +68,7 @@ pylint==3.3.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.17.1
+pyrefly==0.18.0
     # via startrepo (pyproject.toml)
 pytest==8.3.5
     # via
@@ -136,11 +136,11 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 tomlkit==0.13.2
     # via pylint
-ty==0.0.1a7
+ty==0.0.1a8
     # via startrepo (pyproject.toml)
 types-setuptools==80.9.0.20250529
     # via startrepo (pyproject.toml)
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   startrepo (pyproject.toml)
     #   mypy
