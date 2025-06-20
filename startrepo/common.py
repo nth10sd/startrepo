@@ -4,7 +4,9 @@ from __future__ import annotations
 
 from typing import Self
 
-from overrides import EnforceOverrides
+from overrides import (  # ty: ignore[unresolved-import,unused-ignore-comment]
+    EnforceOverrides,
+)
 
 # class LOSDeviceError(Exception, EnforceOverrides):
 #     """Error class unique to LOSDevice objects."""
