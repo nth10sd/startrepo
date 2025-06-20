@@ -9,13 +9,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "startrepo"
 description = "Bootstrap a project easily"
+license = "MIT"
 # Use the following command to find all places to update Python versions
 #   rg --hidden --files | rg -v ".min.js" | xargs rg -I "3[\.]*10" | rg "(py|ver)"
 requires-python = ">=3.11"
 # keywords = ["anything"]
 classifiers = [
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
