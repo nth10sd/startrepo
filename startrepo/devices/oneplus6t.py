@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from overrides import EnforceOverrides  # ty: ignore[unresolved-import]
+from overrides import EnforceOverrides
 
 from startrepo.common import LOSDevice
 
