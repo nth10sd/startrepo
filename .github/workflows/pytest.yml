@@ -64,6 +64,9 @@ jobs:
 
       - name: Run with ruff
         run: python -u -m ruff check
+      - name: Run with pyrefly and print out differences if any (Can be removed when pyrefly matures)
+        shell: bash
+        run: find . -type f -name "*.py" | xargs pyrefly check --remove-unused-ignores ; git diff ; git checkout -- .
       - name: Run basedpyright
         run: python -u -m basedpyright
       - name: Run with refurb to find code that can be written in a more modern way
@@ -72,8 +75,6 @@ jobs:
       - name: Install OS prerequisites
         if: startsWith(runner.os, 'Linux')
         run: sudo apt-get update ; sudo apt-get install ripgrep
-      - name: Run with pyrefly and print out differences if any (Can be removed when pyrefly matures)
-        run: rg -t py --files --path-separator $(python3 -c 'from platform import system;print("//" if system().lower() == "windows" else "/")') | xargs pyrefly check --remove-unused-ignores ; git diff ; git checkout -- .
       - name: Search for existing linter ignore lines in Python
         if: startsWith(runner.os, 'Linux')
         run: |
