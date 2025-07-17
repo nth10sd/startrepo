@@ -21,7 +21,7 @@ class OP3T(LOSDevice, EnforceOverrides):
 
     def __bool__(self) -> bool:
         """Behave meaningfully in boolean contexts."""
-        return bool(0)  # For the OnePlus 3T object
+        return bool(0)  # Change to self.name of the OnePlus 3T object when added
 
     # @classmethod
     # @override
