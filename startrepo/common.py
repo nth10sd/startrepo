@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from typing import Self
-
 from overrides import EnforceOverrides
 
 # class LOSDeviceError(Exception, EnforceOverrides):
@@ -23,7 +21,7 @@ class LOSDevice(EnforceOverrides):
         self.new_type: str = new_type
 
     @classmethod
-    def main(cls: type[Self]) -> None:  # vulture: ignore
+    def main(cls) -> None:  # vulture: ignore
         """LOSDevice main method."""
 
     @staticmethod

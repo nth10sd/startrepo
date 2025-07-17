@@ -19,6 +19,10 @@ class OP3T(LOSDevice, EnforceOverrides):
         """Initialize the OP3T."""
         super().__init__("")
 
+    def __bool__(self) -> bool:
+        """Behave meaningfully in boolean contexts."""
+        return bool(0)  # For the OnePlus 3T object
+
     # @classmethod
     # @override
     # def main(cls) -> None:
