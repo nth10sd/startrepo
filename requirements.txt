@@ -2,13 +2,13 @@
 #    uv pip compile pyproject.toml requirements.in --all-extras --no-strip-extras --no-strip-markers --universal --output-file requirements.txt
 alabaster==1.0.0
     # via sphinx
-astroid==3.3.10
+astroid==3.3.11
     # via pylint
 babel==2.17.0
     # via sphinx
-basedpyright==1.30.1
+basedpyright==1.31.0
     # via startrepo (pyproject.toml)
-certifi==2025.7.9
+certifi==2025.7.14
     # via requests
 charset-normalizer==3.4.2
     # via requests
@@ -43,7 +43,7 @@ markupsafe==3.0.2
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.16.1
+mypy==1.17.0
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
@@ -74,7 +74,7 @@ pylint==3.3.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.23.1
+pyrefly==0.24.2
     # via startrepo (pyproject.toml)
 pytest==8.4.1
     # via
@@ -116,7 +116,7 @@ requests==2.32.4
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
-ruff==0.12.2
+ruff==0.12.3
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -159,7 +159,7 @@ typing-extensions==4.14.1
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.7.20
+uv==0.7.21
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
