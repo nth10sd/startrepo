@@ -116,7 +116,7 @@ requests==2.32.4
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
-ruff==0.12.5
+ruff==0.12.7
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -159,7 +159,7 @@ typing-extensions==4.14.1
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.8.3
+uv==0.8.4
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
