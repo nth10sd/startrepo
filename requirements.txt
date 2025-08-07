@@ -116,7 +116,7 @@ requests==2.32.4
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
-ruff==0.12.7
+ruff==0.12.8
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
