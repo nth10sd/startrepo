@@ -17,7 +17,7 @@ colorama==0.4.6 ; sys_platform == 'win32'
     #   pylint
     #   pytest
     #   sphinx
-coverage[toml]==7.10.3
+coverage[toml]==7.10.4
     # via
     #   startrepo (pyproject.toml)
     #   pytest-cov
@@ -74,7 +74,7 @@ pylint==3.3.8
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.28.1
+pyrefly==0.29.0
     # via startrepo (pyproject.toml)
 pytest==8.4.1
     # via
@@ -125,7 +125,7 @@ setuptools==80.9.0
     #   startrepo (pyproject.toml)
     #   pytest-dependency
     #   setuptools-scm
-setuptools-scm==8.3.1
+setuptools-scm==9.2.0
     # via startrepo (pyproject.toml)
 snowballstemmer==3.0.1
     # via sphinx
