@@ -112,7 +112,7 @@ pytest-vulture==2.2.2
     # via startrepo (pyproject.toml)
 pytest-xdist==3.8.0
     # via startrepo (pyproject.toml)
-requests==2.32.4
+requests==2.32.5
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
@@ -147,7 +147,7 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     # via coverage
 tomlkit==0.13.3
     # via pylint
-ty==0.0.1a18
+ty==0.0.1a19
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
@@ -159,7 +159,7 @@ typing-extensions==4.14.1
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.8.11
+uv==0.8.12
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
