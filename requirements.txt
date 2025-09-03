@@ -6,7 +6,7 @@ astroid==3.3.11
     # via pylint
 babel==2.17.0
     # via sphinx
-basedpyright==1.31.3
+basedpyright==1.31.4
     # via startrepo (pyproject.toml)
 certifi==2025.8.3
     # via requests
@@ -74,7 +74,7 @@ pylint==3.3.8
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.30.0
+pyrefly==0.31.0
     # via startrepo (pyproject.toml)
 pytest==8.4.1
     # via
@@ -147,7 +147,7 @@ tomli==2.2.1 ; python_full_version <= '3.11'
     # via coverage
 tomlkit==0.13.3
     # via pylint
-ty==0.0.1a19
+ty==0.0.1a20
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
@@ -159,7 +159,7 @@ typing-extensions==4.14.1
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.8.14
+uv==0.8.15
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
