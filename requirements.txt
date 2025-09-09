@@ -90,7 +90,7 @@ pytest==8.4.2
     #   pytest-ty
     #   pytest-vulture
     #   pytest-xdist
-pytest-cov==6.3.0
+pytest-cov==7.0.0
     # via startrepo (pyproject.toml)
 pytest-dependency==0.6.0
     # via startrepo (pyproject.toml)
@@ -153,7 +153,7 @@ ty==0.0.1a20
     #   pytest-ty
 types-setuptools==80.9.0.20250529
     # via startrepo (pyproject.toml)
-typing-extensions==4.14.1
+typing-extensions==4.15.0
     # via
     #   startrepo (pyproject.toml)
     #   mypy
