@@ -1,7 +1,5 @@
 """OP3T tests."""
 
-# ruff: noqa: S101
-
 from __future__ import annotations
 
 from startrepo.devices.oneplus3t import OP3T
