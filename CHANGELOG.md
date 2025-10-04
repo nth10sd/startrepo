@@ -1,20 +1,43 @@
+## 2.3.0 (2025-10-04)
+
+1. Support Python 3.13, and set minimum Python version to be Python 3.11
+1. Support new type checkers, `pyrefly` and `ty`
+1. Improvements to CI scripts due to `uv` usage, including addition of `uvx`
+1. Bump to Ubuntu Linux 24.04 LTS on GitHub Actions CI ARM images
+1. Test on aarch64 Ubuntu Linux instances on CI
+1. Replace `pyright` with `basedpyright`
+1. Switch to using `pytest-vulture` instead of standalone `vulture`, and support
+   `pytest-ty`
+1. Enable then disable `beartype` for now, due to poor support for dataclasses
+1. Enable more optional `mypy` checks
+1. Set `typeCheckingMode` for `basedpyright` to `recommended`
+1. Make `ruff` allow `assert` keyword use in `tests/`, but not in package
+1. Count more ignore line types (e.g. `vulture`) when counting known issues
+1. Update lots of tool and dependency versions
+
 ## 2.2.0 (2024-08-23)
 
 1. Move to `uv` usage
 1. Add `--order-dependencies` and `--dist=loadscope` to default pytest options
-1. Define `__slots__` for class properties and enforce method overrides using the overrides package
+1. Define `__slots__` for class properties and enforce method overrides using
+   the overrides package
 
 ## 2.1.1 (2023-08-30)
 
-1. Make sure `sphinx` tries to generate docs first, then fail on CI when docs contain sphinx errors
+1. Make sure `sphinx` tries to generate docs first, then fail on CI when docs
+   contain sphinx errors
 1. Run GitHub Actions CI on all major operating systems
 
 ## 2.1.0 (2023-08-30)
 
-1. Switch `ruff` to select all rules automatically to run, instead of manually specifying each category
-1. Revert `python_files` setting to the default and add `--strict-markers` to `addopts`
-1. Switch back to `pytest-instafail` and add `--instafail` to `pytest` run command
-1. Bump `pyright` to 1.1.324, `ruff` to 0.0.286, `semgrep` to 1.37.0, `sphinx` to 7.2.4 and `vulture` to 2.9.1
+1. Switch `ruff` to select all rules automatically to run, instead of manually
+   specifying each category
+1. Revert `python_files` setting to the default and add `--strict-markers` to
+   `addopts`
+1. Switch back to `pytest-instafail` and add `--instafail` to `pytest` run
+   command
+1. Bump `pyright` to 1.1.324, `ruff` to 0.0.286, `semgrep` to 1.37.0, `sphinx`
+   to 7.2.4 and `vulture` to 2.9.1
 
 ## 2.0.6 (2023-08-20)
 
@@ -27,7 +50,8 @@
 
 ## 2.0.4 (2023-08-19)
 
-1. We no longer use `pytest-vulture` since it uses a different config file than `vulture` itself
+1. We no longer use `pytest-vulture` since it uses a different config file than
+   `vulture` itself
 1. Tweak bashate command on CI to ignore the `E006` (line too long) issue
 
 ## 2.0.3 (2023-08-18)
@@ -42,7 +66,8 @@
 
 1. Test Python 3.11 on CI
 1. Remove old licensing boilerplate
-1. Stop using `pytype`, as its development has slowed immensely, also `mypy` and `pyright` seem sufficient
+1. Stop using `pytype`, as its development has slowed immensely, also `mypy` and
+   `pyright` seem sufficient
 1. Fix all outstanding CI issues
 
 ## 2.0.0 (2023-08-18)
@@ -63,8 +88,10 @@ Checkpoint release prior to upcoming 2.x release.
 1. GitHub Actions workflow tweaks
 1. Do not propagate logger message to root logger, if it is present
 1. Set `mypy` strict flag to true
-1. Ensure generating Sphinx documentation always works, especially via GitHub Actions
-1. Continue even though codecov errors out primarily because codecov limits the number of uploads allowed for each commit, even if scheduled
+1. Ensure generating Sphinx documentation always works, especially via GitHub
+   Actions
+1. Continue even though codecov errors out primarily because codecov limits the
+   number of uploads allowed for each commit, even if scheduled
 
 ## 1.1.0 (2021-05-22)
 
@@ -84,7 +111,9 @@ Checkpoint release prior to upcoming 2.x release.
 
 First version. To adapt this to something desirable:
 
-1. Remember to rename everything away from `bstrap`, including `.coveragerc` and the `bstrap/` folder.
+1. Remember to rename everything away from `bstrap`, including `.coveragerc` and
+   the `bstrap/` folder.
 1. Update the `py38bootstrap` name, and update the README.md file.
-1. `devices/` folder demonstrates how inherited objects can be placed in a subfolder, while `util` folder demonstrates regular functions.
+1. `devices/` folder demonstrates how inherited objects can be placed in a
+   subfolder, while `util` folder demonstrates regular functions.
 1. `tests/` folder demonstrates an example `pytest` test structure.
