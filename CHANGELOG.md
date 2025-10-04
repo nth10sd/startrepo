@@ -1,3 +1,7 @@
+## 2.3.1 (2025-10-04)
+
+1. Minor tweaks to Python tools and other packaging requirement versions
+
 ## 2.3.0 (2025-10-04)
 
 1. Support Python 3.13, and set minimum Python version to be Python 3.11
