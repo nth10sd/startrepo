@@ -151,7 +151,7 @@ ty==0.0.1a21
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
-types-setuptools==80.9.0.20250529
+types-setuptools==80.9.0.20250822
     # via startrepo (pyproject.toml)
 typing-extensions==4.15.0
     # via
@@ -159,7 +159,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.8.22
+uv==0.8.23
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
