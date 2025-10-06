@@ -8,7 +8,7 @@ babel==2.17.0
     # via sphinx
 basedpyright==1.31.6
     # via startrepo (pyproject.toml)
-certifi==2025.8.3
+certifi==2025.10.5
     # via requests
 charset-normalizer==3.4.3
     # via requests
@@ -70,11 +70,11 @@ pygments==2.19.2
     # via
     #   pytest
     #   sphinx
-pylint==3.3.8
+pylint==3.3.9
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.35.0
+pyrefly==0.36.0
     # via startrepo (pyproject.toml)
 pytest==8.4.2
     # via
