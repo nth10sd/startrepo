@@ -1,3 +1,10 @@
+## 2.4.0 (2025-10-12)
+
+1. Support Python 3.14
+1. Bump versions of GitHub Action actions
+1. Tweak `pylint` `duplicate-code` settings
+1. Minor tweaks to Python tools and other packaging requirement versions
+
 ## 2.3.2 (2025-10-06)
 
 1. Minor tweaks to Python tools and other packaging requirement versions
