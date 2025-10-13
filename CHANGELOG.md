@@ -1,3 +1,7 @@
+## 2.4.1 (2025-10-12)
+
+1. Revert `pylint` back to 3.3.9 for now
+
 ## 2.4.0 (2025-10-12)
 
 1. Support Python 3.14
