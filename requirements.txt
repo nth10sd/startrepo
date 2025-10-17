@@ -116,7 +116,7 @@ requests==2.32.5
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
-ruff==0.14.0
+ruff==0.14.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -147,7 +147,7 @@ tomli==2.3.0 ; python_full_version <= '3.11'
     # via coverage
 tomlkit==0.13.3
     # via pylint
-ty==0.0.1a22
+ty==0.0.1a23
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
