@@ -33,7 +33,7 @@ idna==3.11
     # via requests
 imagesize==1.4.1
     # via sphinx
-iniconfig==2.1.0
+iniconfig==2.3.0
     # via pytest
 isort==6.1.0
     # via pylint
@@ -125,7 +125,7 @@ setuptools==80.9.0
     #   startrepo (pyproject.toml)
     #   pytest-dependency
     #   setuptools-scm
-setuptools-scm==9.2.1
+setuptools-scm==9.2.2
     # via startrepo (pyproject.toml)
 snowballstemmer==3.0.1
     # via sphinx
@@ -159,7 +159,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.9.3
+uv==0.9.4
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
