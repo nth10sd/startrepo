@@ -6,7 +6,7 @@ astroid==3.3.11
     # via pylint
 babel==2.17.0
     # via sphinx
-basedpyright==1.31.7
+basedpyright==1.32.0
     # via startrepo (pyproject.toml)
 certifi==2025.10.5
     # via requests
@@ -74,7 +74,7 @@ pylint==3.3.9
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.37.0
+pyrefly==0.38.2
     # via startrepo (pyproject.toml)
 pytest==8.4.2
     # via
@@ -159,7 +159,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.5.0
     # via requests
-uv==0.9.4
+uv==0.9.5
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
