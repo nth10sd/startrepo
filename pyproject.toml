@@ -72,6 +72,7 @@ write_to = "startrepo/_version.txt"
 [tool.basedpyright]
 exclude = ["**/node_modules", "**/__pycache__", "**/.*", "build/"]
 pythonVersion = "3.11"
+reportImplicitStringConcatenation = false  # Other linters cover this in better ways
 typeCheckingMode = "recommended"
 
 [tool.coverage.report]
