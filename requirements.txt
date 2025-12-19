@@ -23,11 +23,11 @@ coverage[toml]==7.13.0
     #   pytest-cov
 dill==0.4.0
     # via pylint
-docutils==0.22.3
+docutils==0.22.4
     # via sphinx
 execnet==2.1.2
     # via pytest-xdist
-filelock==3.20.0
+filelock==3.20.1
     # via pytest-mypy
 idna==3.11
     # via requests
@@ -39,13 +39,13 @@ isort==6.1.0
     # via pylint
 jinja2==3.1.6
     # via sphinx
-librt==0.7.3
+librt==0.7.4 ; platform_python_implementation != 'PyPy'
     # via mypy
 markupsafe==3.0.3
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.19.0
+mypy==1.19.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
@@ -76,7 +76,7 @@ pylint==3.3.9
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.45.2
+pyrefly==0.46.0
     # via startrepo (pyproject.toml)
 pytest==9.0.2
     # via
@@ -116,9 +116,9 @@ pytest-xdist==3.8.0
     # via startrepo (pyproject.toml)
 requests==2.32.5
     # via sphinx
-roman-numerals==3.1.0
+roman-numerals==4.1.0
     # via sphinx
-ruff==0.14.9
+ruff==0.14.10
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -149,7 +149,7 @@ tomli==2.3.0 ; python_full_version <= '3.11'
     # via coverage
 tomlkit==0.13.3
     # via pylint
-ty==0.0.1a34
+ty==0.0.4
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
@@ -161,7 +161,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.6.2
     # via requests
-uv==0.9.17
+uv==0.9.18
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
