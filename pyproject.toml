@@ -65,7 +65,7 @@ version = { attr = "startrepo.__version__" }
 readme = { file = ["README.md", "CHANGELOG.md"] }
 
 [tool.setuptools_scm]
-write_to = "startrepo/_version.txt"
+version_file = "startrepo/_version.txt"
 
 ##### Other tools #####
 
