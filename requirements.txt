@@ -6,7 +6,7 @@ astroid==4.0.4
     # via pylint
 babel==2.18.0
     # via sphinx
-basedpyright==1.37.4
+basedpyright==1.38.0
     # via startrepo (pyproject.toml)
 certifi==2026.1.4
     # via requests
@@ -27,7 +27,7 @@ docutils==0.22.4
     # via sphinx
 execnet==2.1.2
     # via pytest-xdist
-filelock==3.20.3
+filelock==3.21.2
     # via pytest-mypy
 idna==3.11
     # via requests
@@ -39,7 +39,7 @@ isort==7.0.0
     # via pylint
 jinja2==3.1.6
     # via sphinx
-librt==0.7.8 ; platform_python_implementation != 'PyPy'
+librt==0.8.0 ; platform_python_implementation != 'PyPy'
     # via mypy
 markupsafe==3.0.3
     # via jinja2
@@ -51,7 +51,7 @@ mypy==1.19.1
     #   pytest-mypy
 mypy-extensions==1.1.0
     # via mypy
-nodejs-wheel-binaries==24.13.0
+nodejs-wheel-binaries==24.13.1
     # via basedpyright
 overrides==7.7.0
     # via startrepo (pyproject.toml)
@@ -63,7 +63,7 @@ packaging==26.0
     #   wheel
 pathspec==1.0.4
     # via mypy
-platformdirs==4.5.1
+platformdirs==4.7.0
     # via pylint
 pluggy==1.6.0
     # via
@@ -116,11 +116,11 @@ requests==2.32.5
     # via sphinx
 roman-numerals==4.1.0
     # via sphinx
-ruff==0.15.0
+ruff==0.15.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
-setuptools==80.10.2
+setuptools==82.0.0
     # via
     #   startrepo (pyproject.toml)
     #   setuptools-scm
@@ -146,11 +146,11 @@ tomli==2.4.0 ; python_full_version <= '3.11'
     # via coverage
 tomlkit==0.14.0
     # via pylint
-ty==0.0.15
+ty==0.0.16
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
-types-setuptools==80.10.0.20260124
+types-setuptools==82.0.0.20260210
     # via startrepo (pyproject.toml)
 typing-extensions==4.15.0
     # via
@@ -158,7 +158,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.6.3
     # via requests
-uv==0.10.0
+uv==0.10.2
     # via startrepo (pyproject.toml)
 vulture==2.14
     # via
