@@ -45,7 +45,7 @@ markupsafe==3.0.3
     # via jinja2
 mccabe==0.7.0
     # via pylint
-mypy==1.20.0
+mypy==1.20.1
     # via
     #   startrepo (pyproject.toml)
     #   pytest-mypy
@@ -78,7 +78,7 @@ pylint==4.0.5
     # via
     #   startrepo (pyproject.toml)
     #   pytest-pylint
-pyrefly==0.60.2
+pyrefly==0.61.0
     # via startrepo (pyproject.toml)
 pytest==9.0.3
     # via
@@ -129,7 +129,7 @@ setuptools-scm==10.0.5
     # via startrepo (pyproject.toml)
 snowballstemmer==3.0.1
     # via sphinx
-sphinx==9.0.4
+sphinx==9.1.0
     # via startrepo (pyproject.toml)
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
@@ -145,7 +145,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 tomlkit==0.14.0
     # via pylint
-ty==0.0.29
+ty==0.0.30
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
