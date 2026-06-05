@@ -29,9 +29,9 @@ docutils==0.22.4
     # via sphinx
 execnet==2.1.2
     # via pytest-xdist
-filelock==3.29.0
+filelock==3.29.1
     # via pytest-mypy
-idna==3.17
+idna==3.18
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -119,7 +119,7 @@ requests==2.34.2
     # via sphinx
 roman-numerals==4.1.0
     # via sphinx
-ruff==0.15.15
+ruff==0.15.16
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -129,7 +129,7 @@ setuptools==82.0.1
     #   setuptools-scm
 setuptools-scm==10.0.5
     # via startrepo (pyproject.toml)
-snowballstemmer==3.1.0
+snowballstemmer==3.1.1
     # via sphinx
 sphinx==9.1.0
     # via startrepo (pyproject.toml)
@@ -147,7 +147,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 tomlkit==0.15.0
     # via pylint
-ty==0.0.40
+ty==0.0.44
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
@@ -159,7 +159,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.7.0
     # via requests
-uv==0.11.17
+uv==0.11.19
     # via startrepo (pyproject.toml)
 vcs-versioning==1.1.1
     # via setuptools-scm
@@ -169,5 +169,5 @@ vulture==2.16
     #   pytest-vulture
 wheel==0.47.0
     # via startrepo (pyproject.toml)
-zuban==0.7.2
+zuban==0.8.0
     # via startrepo (pyproject.toml)
