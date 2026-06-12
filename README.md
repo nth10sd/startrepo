@@ -28,7 +28,7 @@ Running in the above venv:
 (venv-startrepo) $ cd REPLACEME
                       ^^^^^^^^^
 
-(venv-startrepo) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.vulture_allowlist ../startrepo/.github . && rm -rf build/ *.egg*-info/
+(venv-startrepo) $ cp -r ../startrepo/* ../startrepo/.gitignore ../startrepo/.github . && rm -rf build/ *.egg*-info/
 
 (venv-startrepo) $ mv startrepo/ REPLACEME
                                  ^^^^^^^^^
