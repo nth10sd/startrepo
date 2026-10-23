@@ -207,6 +207,9 @@ project-excludes = ["build/"]
 python-version = "3.12"
 search-path = []
 
+[tool.pyrefly.errors]
+implicit-bool = false  # Seems to go against our regular Python convention
+
 [tool.pytest]
 addopts = [
   "--dist=loadscope",
