@@ -2,13 +2,12 @@
 
 from __future__ import annotations
 
-from logging import INFO as INFO_LOG_LEVEL
-from logging import Logger
+import logging
 
 from startrepo.util.logging import get_logger
 
-UTIL_RUN_LOG: Logger = get_logger(__name__, fmt="%(message)s")
-UTIL_RUN_LOG.setLevel(INFO_LOG_LEVEL)
+UTIL_RUN_LOG: logging.Logger = get_logger(__name__, fmt="%(message)s")
+UTIL_RUN_LOG.setLevel(logging.INFO)
 
 
 def add_one(inp: int) -> int:
