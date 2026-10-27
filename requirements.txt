@@ -10,7 +10,7 @@ babel==2.18.0
     # via sphinx
 basedpyright==1.40.2
     # via startrepo (pyproject.toml)
-certifi==2026.10.19
+certifi==2026.10.23
     # via requests
 charset-normalizer==3.5.2
     # via requests
@@ -121,7 +121,7 @@ requests==2.34.2
     # via sphinx
 roman-numerals==4.1.0
     # via sphinx
-ruff==0.17.2
+ruff==0.17.3
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ruff
@@ -149,7 +149,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 tomlkit==0.15.2
     # via pylint
-ty==0.0.91
+ty==0.0.92
     # via
     #   startrepo (pyproject.toml)
     #   pytest-ty
@@ -161,7 +161,7 @@ typing-extensions==4.15.0
     #   mypy
 urllib3==2.8.0
     # via requests
-uv==0.13.5
+uv==0.13.6
     # via startrepo (pyproject.toml)
 vcs-versioning==2.6.0
     # via setuptools-scm
