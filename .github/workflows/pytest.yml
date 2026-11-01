@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: Free disk space (regular GitHub Actions Ubuntu images)
         if: startsWith(runner.os, 'Linux')
-        uses: jlumbroso/free-disk-space@v2
+        uses: jlumbroso/free-disk-space@ceedf095f4ec1a097402bc6bd80831f2e1a6fde6 # v2.0.0
         with:
           # Turn off Android, .NET and Haskell stuff for now
           android: true
@@ -46,15 +46,15 @@ jobs:
           # trace back to this action — see the FAQ below before enabling
           preinstalled-runtimes: false
           swap-storage: false
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: ${{ matrix.python-version }}
 
       # uv pip cache dependencies to save time
       - name: Restore uv cache
-        uses: actions/cache@v6
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: /tmp/.uv-cache
           key: uv-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('requirements.txt') }}
@@ -251,7 +251,7 @@ jobs:
             done ;
       # CodeQL analysis section END
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v7
+        uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5 # v7.1.1
         continue-on-error: true # codecov limits number of uploads allowed for each commit
         with:
           env_vars: OS,PYTHON
